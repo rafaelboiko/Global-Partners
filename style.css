@@ -1,0 +1,405 @@
+/* GRID SPACE 2018 update 1*/
+
+@font-face {
+    font-family: Gotham;
+    src: url('../fonts/Gotham/GothamHTF-Light.otf');
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('../fonts/Gotham/GothamHTF-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('../fonts/Gotham/GothamHTF-Bold.otf');
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+body {
+    font-family: Gotham-Book;
+}
+
+h1 {
+    font-family: Gotham-Bold;
+    font-size: 18px;
+    line-height: 36px;
+    color: #B8222F;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+}
+
+h4 {
+    font-family: Gotham;
+    font-size: 15px;
+    line-height: 2em;
+    color: black;
+    margin: 0;
+    line-height: auto
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid red
+}
+
+header ul {
+    width: 1170px;
+    display: table;
+    margin: 85px auto 85px
+}
+
+header ul li {
+    font-family: Gotham-Bold;
+    display: table-cell ;
+    width: 60%;
+    height: 108px;
+    vertical-align: bottom;
+    font-size: 34px;
+}
+
+header ul li:nth-child(1) {
+    background: url(../img/logo.svg) no-repeat 0;
+}
+
+.row.box-top {
+    display: block;
+    width: 100%;
+    margin: 30px auto
+}
+
+.box-top .col-xs-4 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    float: none;
+    margin: 0;
+    position: static;
+    padding: 0
+}
+
+.box-top .col-xs-4.search {
+    width: 59%;
+}
+
+.box-top input.form-control {
+    width: 60%;
+    height: 50px;
+
+    border: 1px solid #BDB5B4;
+    box-sizing: border-box;
+
+    border-radius: 0;
+    outline: none;
+    margin: 0;
+    float: right;
+    box-shadow: none
+}
+
+ul.years {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    display: table;
+    background: url(../img/timeline.svg) no-repeat right 30px top;
+    background-size: 76%
+}
+
+ul.years li {
+    display: table-cell;
+    width: 70px;
+    height: 50px;
+
+    padding-top: 21px;
+    text-align: center;
+    font-family: Gotham-Bold;
+    text-transform: uppercase
+}
+
+ul.years li:first-child {
+    width: 200px;
+    text-align: left;
+    text-indent: 40px;
+    background: url(../img/worldwide_location.svg) no-repeat 0
+}
+
+ul.years li:nth-child(2) {
+    line-height: 17px;
+    text-align: center
+}
+
+table thead tr {
+    display: block;
+}
+
+table th, table td {
+    width: 100px;
+}
+
+table td {
+    width: 200px;
+}
+
+table td.text-center,
+table td.text-center span {
+    width: 70px;
+    height: 80px;
+    margin: 0 auto;
+    display: inline-block
+}
+
+table td.text-center span {
+    width: 35%;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto
+}
+
+.col-xs-12 {
+    float: none
+}
+
+table {
+    width: 100%;
+}
+
+#searchfield {
+    margin-bottom: 10px;
+    margin-top: 32px;
+    padding-right: 5%
+}
+
+.pressable-day {
+    cursor: pointer;
+}
+
+.pressable-day.active {
+    background-color: forestgreen;
+    color: white;
+    border-radius: 50px;
+}
+
+.schedule-color {
+    color: forestgreen;
+}
+
+.row-border {
+    border-bottom-width: 0.1em;
+    border-bottom-style: solid;
+    border-bottom-color: #D5D5D5;
+    height: 80px;
+}
+
+.booking.glyphicon-ok {
+    font-size: 2em;
+    color: forestgreen;
+    opacity: 0.1;
+}
+
+.booking.glyphicon-ok.active {
+    opacity: 1;
+}
+
+.fix-row.fixed {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    background: #fff;
+
+    -webkit-box-shadow: 0px 79px 82px -53px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 79px 82px -53px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 79px 82px -53px rgba(0, 0, 0, 0.2);
+
+}
+
+ul.learn-more,
+ul.filter {
+    width: 100%;
+    height: 50px;
+    display: table;
+    margin: 0 auto 30px;
+    padding: 0;
+}
+
+ul.filter li {
+    width: 23.3%;
+    display: inline-block;
+
+    text-align: center;
+    font-family: Gotham-Bold;
+
+    border: 1px solid #fafafa;
+    box-sizing: border-box;
+
+    line-height: 50px;
+    margin-right: 1%
+}
+
+ul.filter li img {
+    width: 17px;
+    margin-right: 8px
+}
+
+ul.filter li:nth-child(1) {
+    border: 1px solid #253746;
+    color: #253746;
+}
+
+ul.filter li:nth-child(2) {
+    border: 1px solid #E03C31;
+    color: #E03C31;
+}
+
+ul.filter li:nth-child(3) {
+    border: 1px solid #FED141;
+    color: #FED141;
+}
+
+ul.filter li:nth-child(4) {
+    width: 27%;
+    border: 1px solid #407BAE;
+    color: #407BAE;
+    margin-right: 0;
+}
+
+ul.filter li:nth-child(1):hover {
+    border: 1px solid rgba(37, 55, 70, 0.5);
+}
+
+ul.filter li:nth-child(2):hover {
+    border: 1px solid rgba(224, 60, 49, 0.5);
+}
+
+ul.filter li:nth-child(3):hover {
+    border: 1px solid rgba(254, 209, 65, 0.5);
+}
+
+ul.filter li:nth-child(4):hover {
+    border: 1px solid rgba(64, 123, 174, 0.49);
+}
+
+ul.learn-more {
+    width: 100%;
+    height: auto;
+    margin: 0
+}
+
+ul.learn-more li {
+    width: 23.3%;
+    height: 20px;
+    background: url(../img/info.svg) no-repeat right 0;
+    display: inline-block;
+
+    padding-top: 3px;
+    padding-right: 20px;
+    
+    text-align: right;
+    font-size: 9px;
+    color: #878787;
+    font-weight: normal;
+    cursor: help
+}
+
+ul.learn-more li:nth-child(2) {
+    width: 24.3%;
+}
+
+ul.learn-more li:nth-child(3) {
+    width: 24.3%;
+}
+
+ul.learn-more li:nth-child(4) {
+    width: 28%;
+}
+
+ul.learn-more li span {
+    display: none 
+}
+
+ul.learn-more li:hover span {
+    display: block;
+    
+    width: 200px;
+    background: #F8F8F8;
+    padding: 20px 10px;
+    
+	top: 23px;
+    position: absolute; 
+    margin-left: 70px
+}
+
+ul.learn-more li:nth-child(1):hover span {
+    margin-left: 59px
+}
+
+ul.learn-more li:nth-child(4):hover span {
+    margin-left: 111px
+}
+
+.pressable-day.active {
+    background: rgb(231, 231, 231);
+    border-radius: 0;
+}
+
+ul.filter li.active:nth-child(1) {
+    border: 1px solid #253746;
+    color: #fff;
+    background: #253746
+}
+
+ul.filter li.active:nth-child(2) {
+    border: 1px solid #E03C31;
+    color: #fff;
+    background: #E03C31
+}
+
+ul.filter li.active:nth-child(3) {
+    border: 1px solid #FED141;
+    color: #373A36;
+    background: #FED141
+}
+
+ul.filter li.active:nth-child(4) {
+    border: 1px solid #407BAE;
+    color: #fff;
+    background: #407BAE
+}
+
+table span.flag {
+    background: url(../img/flag-unactive.svg) no-repeat center
+}
+
+table span.flag-darkblue {
+    background: url(../img/flag-darkblue.svg) no-repeat center
+}
+
+table span.flag-red {
+    background: url(../img/flag-red.svg) no-repeat center
+}
+
+table span.flag-yellow {
+    background: url(../img/flag-yellow.svg) no-repeat center
+}
+
+table span.flag-blue {
+    background: url(../img/flag-blue.svg) no-repeat center
+}
+
