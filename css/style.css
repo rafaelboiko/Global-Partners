@@ -35,7 +35,7 @@ h1 {
     font-size: 18px;
     line-height: 36px;
     color: #B8222F;
-    text-transform: uppercase;
+    text-transform: uppercase; display: none 
 }
 
 h2 {
@@ -59,9 +59,13 @@ header {
 }
 
 header ul {
-    width: 1170px;
+    width: 1140px;
     display: table;
-    margin: 85px auto 85px
+    margin: 85px auto 85px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header ul li {
@@ -80,12 +84,14 @@ header ul li:nth-child(1) {
 .row.box-top {
     display: block;
     width: 100%;
-    margin: 30px auto
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 30px auto 60px
 }
 
 .box-top .col-xs-4 {
     display: inline-block;
-    width: 40%;
+    width: 55%;
     vertical-align: top;
     float: none;
     margin: 0;
@@ -94,7 +100,7 @@ header ul li:nth-child(1) {
 }
 
 .box-top .col-xs-4.search {
-    width: 59%;
+    width: 44.5%;
 }
 
 .box-top input.form-control {
@@ -135,7 +141,8 @@ ul.years li:first-child {
     width: 200px;
     text-align: left;
     text-indent: 40px;
-    background: url(../img/worldwide_location.svg) no-repeat 0
+    background: url(../img/worldwide_location.svg) no-repeat 0;
+    padding-top: 8px
 }
 
 ul.years li:nth-child(2) {
@@ -310,7 +317,7 @@ ul.learn-more li {
 
     padding-top: 3px;
     padding-right: 20px;
-    
+
     text-align: right;
     font-size: 9px;
     color: #878787;
@@ -331,18 +338,18 @@ ul.learn-more li:nth-child(4) {
 }
 
 ul.learn-more li span {
-    display: none 
+    display: none
 }
 
 ul.learn-more li:hover span {
     display: block;
-    
+
     width: 200px;
     background: #F8F8F8;
     padding: 20px 10px;
-    
-	top: 23px;
-    position: absolute; 
+
+    top: 23px;
+    position: absolute;
     margin-left: 70px
 }
 
