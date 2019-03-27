@@ -15,6 +15,10 @@
     src: url('../fonts/Gotham/GothamHTF-Bold.otf');
 }
 
+:hover {
+	transition: all 0.4s ease-in-out 0.01s;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -433,20 +437,16 @@ table span.flag-blue {
 
 table span.flag-darkblue:hover {
     background: url(../img/flag-darkblue-1.svg) no-repeat center;
-    transition: all 0.4s ease-in-out 0.01s;
 }
 
 table span.flag-red:hover {
     background: url(../img/flag-red-1.svg) no-repeat center;
-    transition: all 0.4s ease-in-out 0.01s;
 }
 
 table span.flag-yellow:hover {
     background: url(../img/flag-yellow-1.svg) no-repeat center;
-    transition: all 0.4s ease-in-out 0.01s;
 }
 
 table span.flag-blue:hover {
     background: url(../img/flag-blue-1.svg) no-repeat center;
-    transition: all 0.4s ease-in-out 0.01s;
 }
