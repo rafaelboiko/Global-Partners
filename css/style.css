@@ -15,10 +15,6 @@
     src: url('../fonts/Gotham/GothamHTF-Bold.otf');
 }
 
-:hover {
-	transition: all 0.4s ease-in-out 0.01s;
-}
-
 ul {
     padding: 0;
     margin: 0;
@@ -167,7 +163,7 @@ ul.years li:first-child {
 
 ul.years li:nth-child(2) {
     line-height: 17px;
-    text-align: center; width: 76px
+    text-align: center
 }
 
 table thead tr {
@@ -191,7 +187,7 @@ table td.text-center span {
 }
 
 table td.text-center span {
-    width: 33%;
+    width: 35%;
 }
 
 .row {
@@ -369,6 +365,7 @@ ul.learn-more li:hover span {
     background: #F8F8F8;
     padding: 20px 10px;
 
+    font-size: 12px;
     top: 23px;
     position: absolute;
     margin-left: 70px;
@@ -435,18 +432,3 @@ table span.flag-blue {
     background: url(../img/flag-blue.svg) no-repeat center
 }
 
-table span.flag-darkblue:hover {
-    background: url(../img/flag-darkblue-1.svg) no-repeat center;
-}
-
-table span.flag-red:hover {
-    background: url(../img/flag-red-1.svg) no-repeat center;
-}
-
-table span.flag-yellow:hover {
-    background: url(../img/flag-yellow-1.svg) no-repeat center;
-}
-
-table span.flag-blue:hover {
-    background: url(../img/flag-blue-1.svg) no-repeat center;
-}
