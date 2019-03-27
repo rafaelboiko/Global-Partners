@@ -1,4 +1,4 @@
-/* GRID SPACE 2019 update final*/
+/* GRID SPACE 2019 - 27/03*/
 
 @font-face {
     font-family: Gotham;
@@ -161,7 +161,7 @@ ul.years li:first-child {
     padding-top: 8px
 }
 
-ul.years li:nth-child(2) {
+	ul.years li:nth-child(2) {
     line-height: 17px;
     text-align: center;
     width: 76px
