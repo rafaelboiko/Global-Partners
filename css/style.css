@@ -35,7 +35,9 @@ h1 {
     font-size: 18px;
     line-height: 36px;
     color: #B8222F;
-    text-transform: uppercase; display: none 
+    text-transform: uppercase;
+    
+    border-bottom: 1px solid #B8222F
 }
 
 h2 {
@@ -55,7 +57,7 @@ h4 {
 
 header {
     width: 100%;
-    border-bottom: 2px solid red
+    border-bottom: 2px solid #B8222F
 }
 
 header ul {
@@ -72,13 +74,15 @@ header ul li {
     font-family: Gotham-Bold;
     display: table-cell ;
     width: 60%;
-    height: 108px;
-    vertical-align: bottom;
-    font-size: 34px;
+    vertical-align: top;
+    font-size: 30px;
+    height: 200px
 }
 
 header ul li:nth-child(1) {
-    background: url(../img/logo.svg) no-repeat 0;
+    height: 120px;
+    background: url(../img/logo.png) no-repeat 0;
+    background-size: 270px;
 }
 
 .row.box-top {
@@ -86,7 +90,13 @@ header ul li:nth-child(1) {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 30px auto 60px
+    margin: 30px auto 30px
+}
+
+.row.box-bottom {
+    margin: 30px auto 60px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .box-top .col-xs-4 {
@@ -97,6 +107,10 @@ header ul li:nth-child(1) {
     margin: 0;
     position: static;
     padding: 0
+}
+
+.box-top .col-xs-4 h2:nth-child(1) {
+    font-family: Gotham-Bold; 
 }
 
 .box-top .col-xs-4.search {
@@ -226,6 +240,7 @@ table {
 
 .fix-row.fixed {
     position: -webkit-sticky; /* Safari */
+    transition: all 0.4s ease-in-out 0.01s;
     position: sticky;
     top: 0;
 
@@ -315,11 +330,11 @@ ul.learn-more li {
     background: url(../img/info.svg) no-repeat right 0;
     display: inline-block;
 
-    padding-top: 3px;
+    padding-top: 2px;
     padding-right: 20px;
 
     text-align: right;
-    font-size: 9px;
+    font-size: 10px;
     color: #878787;
     font-weight: normal;
     cursor: help
