@@ -26,6 +26,30 @@ ul li {
     list-style: none
 }
 
+summary, details, article {
+    outline: none 
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+
+summary:before {
+    width: 20px;
+    content: "+";
+    color: #B8222F;
+    font-size: 1em;
+    font-weight: 400;
+    float: right;
+    margin-top: 10px
+}
+
+details[open] summary:before {
+    content: "-";
+    background: #fff;
+    color: #B8222F;
+}
+
 body {
     font-family: Gotham-Book;
 }
@@ -36,6 +60,8 @@ h1 {
     line-height: 36px;
     color: #B8222F;
     text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid #B8222F
 }
 
 h2 {
@@ -65,7 +91,7 @@ header {
 header ul {
     width: 1140px;
     display: table;
-    margin: 55px auto 55px;
+    margin: 40px auto 40px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -92,11 +118,11 @@ header ul li:nth-child(1) {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 30px auto 30px
+    margin: 30px auto 20px
 }
 
 .row.box-bottom {
-    margin: 30px auto 60px;
+    margin: 0 auto 60px;
     padding-right: 15px;
     padding-left: 15px;
 }
