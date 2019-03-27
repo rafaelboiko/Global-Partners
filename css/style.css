@@ -36,14 +36,16 @@ h1 {
     line-height: 36px;
     color: #B8222F;
     text-transform: uppercase;
-    
-    border-bottom: 1px solid #B8222F
 }
 
 h2 {
     font-size: 14px;
     line-height: 26px;
     color: #000000;
+}
+
+h2 p {
+    margin-top: 20px
 }
 
 h4 {
@@ -63,7 +65,7 @@ header {
 header ul {
     width: 1140px;
     display: table;
-    margin: 85px auto 85px;
+    margin: 55px auto 55px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -161,7 +163,7 @@ ul.years li:first-child {
 
 ul.years li:nth-child(2) {
     line-height: 17px;
-    text-align: center
+    text-align: center; width: 76px
 }
 
 table thead tr {
@@ -185,7 +187,7 @@ table td.text-center span {
 }
 
 table td.text-center span {
-    width: 35%;
+    width: 33%;
 }
 
 .row {
@@ -365,7 +367,7 @@ ul.learn-more li:hover span {
 
     top: 23px;
     position: absolute;
-    margin-left: 70px
+    margin-left: 70px;
 }
 
 ul.learn-more li:nth-child(1):hover span {
@@ -429,3 +431,22 @@ table span.flag-blue {
     background: url(../img/flag-blue.svg) no-repeat center
 }
 
+table span.flag-darkblue:hover {
+    background: url(../img/flag-darkblue-1.svg) no-repeat center;
+    transition: all 0.4s ease-in-out 0.01s;
+}
+
+table span.flag-red:hover {
+    background: url(../img/flag-red-1.svg) no-repeat center;
+    transition: all 0.4s ease-in-out 0.01s;
+}
+
+table span.flag-yellow:hover {
+    background: url(../img/flag-yellow-1.svg) no-repeat center;
+    transition: all 0.4s ease-in-out 0.01s;
+}
+
+table span.flag-blue:hover {
+    background: url(../img/flag-blue-1.svg) no-repeat center;
+    transition: all 0.4s ease-in-out 0.01s;
+}
