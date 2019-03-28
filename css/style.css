@@ -71,7 +71,8 @@ h2 {
 }
 
 h2 p {
-    margin-top: 20px
+    margin-top: 20px;
+    font-family: Gotham-Bold
 }
 
 h4 {
